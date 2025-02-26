@@ -17,7 +17,8 @@ export default {
         yellowTwo: '#FFCA57'
       },
       backgroundImage: {
-        'gradient-custom': 'linear-gradient(62.38deg, #E33237 5.62%, #FF6145 94.38%)',
+        'gradient-button': 'linear-gradient(62.38deg, #E33237 5.62%, #FF6145 94.38%)',
+        'gradient-hero': 'linear-gradient(180deg, #FFD757 50%, #FFCA57 100%)'
       },
     },
   },

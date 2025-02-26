@@ -16,7 +16,7 @@ export const Button = ({ children, width, className, href, onClick }) => {
       className={cn(
         'flex items-center rounded-[32px] lg:rounded-[40px]',
         'py-[11px] px-[41px] lg:px-[72px]',
-        'bg-gradient-custom shadow-[0_10px_0_#931827]',
+        'bg-gradient-button shadow-[0_10px_0_#931827]',
         'hover:opacity-95',
         'text-[32px] lg:text-[40px]',
         'leading-[46.34px] lg:leading-[57.92px]',
