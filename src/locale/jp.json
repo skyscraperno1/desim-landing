@@ -1,4 +1,11 @@
 {
   "welcome": "welcome",
+  "heroBox1": "累計50万人以上の旅行者をサポート",
+  "satisfaction": "顧客満足度<0>は…</0>",
+  "satisfactionRage": "<0>{{rate}}</0>％以上",
+  "heroBox2": "初めてのeSIM",
+  "timeDecline": "設定時間を削減",
+  "apply": "お申し込み",
+  "aboutMinutes": "約<0>{{minutes}}</0>分",
   "amazonPurchase": "Amazonで購入" 
 }
