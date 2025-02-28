@@ -16,6 +16,27 @@
     "amazonPurchase": "Amazonで購入" 
   },
   "explain": {
-    "title": "テストサービスとは？"
+    "title": "テストサービスとは？",
+    "worries": {
+      "line1": "自分の端末でeSIMが使えるかわからない",
+      "line2": "eSIMって使うの難しそう・・・。",
+      "line3": "設定できなかったらどうしよう。"
+    },
+    "content": {
+      "title": "そんな多くの利用者の声から生まれたサービスです。",
+      "line1": "「eSIMを利用してみたいけど、使えるかどうかわからない」",
+      "line2": "と思う人はぜひお試しください！"
+    },
+    "features": {
+      "title": "eSIMの使いやすさをぜひご体験ください",
+      "noPhysicalSim": {
+        "title": "物理SIMの差し替え不要",
+        "description": "(=無くす心配なし！)"
+      },
+      "globalSupport": {
+        "title": "物理SIMの差し替え不要",
+        "description": "(=無くす心配なし！)"
+      }
+    }
   }
 }
