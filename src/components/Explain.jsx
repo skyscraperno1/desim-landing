@@ -1,7 +1,8 @@
-import { useTranslation, Trans } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 import WorriedGirl from "@/assets/imgs/worried-girl.png"
 import Feature1 from "@/assets/imgs/Feature1.png"
 import Feature2 from "@/assets/imgs/Feature2.png"
+import EsimPhone from "@/assets/imgs/esim-phone.png";
 
 const DotLine = ({ count }) => {
   return (
@@ -16,7 +17,7 @@ const DotLine = ({ count }) => {
 export const Explain = () => {
   const { t } = useTranslation()
   return (
-    <div className="flex flex-col items-center h-[970px] gap-[40px] px-[100px]">
+    <div className="flex flex-col items-center h-[970px] gap-[40px] px-[150px] mt-28">
       {/* 标题部分 */}
       <div className="flex flex-col py-auto gap-[35px]">
         <h2 className="text-[40px] leading-[40px] font-bold">{t('explain.title')}</h2>
@@ -52,10 +53,11 @@ export const Explain = () => {
         </div>
       </div>
       {/* 特性展示部分 */}
-      <div className="w-full max-w-[1000px] rounded-[30px] border-[5px] border-[#0DB3DB] p-8">
-        <h3 className="text-center text-white text-[32px] mb-12 bg-[#0DB3DB] rounded-[30px]">
+      <div className="w-full rounded-[30px] border-[5px] border-[#0DB3DB] p-8 relative pt-[80px] z-10 bg-white">
+        <h3 className="text-center px-[83px] py-[17px] text-white text-[32px] absolute bg-[#0DB3DB] rounded-[30px] -top-[40px] left-[50%] -translate-x-[50%] truncate">
           {t('explain.features.title')}
         </h3>
+        <img src={EsimPhone} className="absolute w-[165px] h-[238px] -left-[86px] -bottom-[120px]" />
         <div className="grid grid-cols-2 gap-8">
           {/* 特性1 */}
           <div className="flex flex-col items-center">
