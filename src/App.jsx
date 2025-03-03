@@ -5,7 +5,8 @@ import { Explain } from "@/components/Explain";
 import { TimeLimit } from "@/components/TimeLimit";
 import { OverseaTest } from "@/components/OverseaTest"
 import { Service } from "@/components/Service";
-
+import { Purchase } from "@/components/Purchase";
+import { Destination } from "@/components/Destination";
 function App() {
   return (
     <>
@@ -16,6 +17,8 @@ function App() {
         <TimeLimit></TimeLimit>
         <OverseaTest></OverseaTest>
         <Service></Service>
+        <Purchase></Purchase>
+        <Destination></Destination>
       </div>
     </>
   )
