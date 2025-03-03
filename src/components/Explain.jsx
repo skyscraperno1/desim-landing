@@ -3,26 +3,15 @@ import WorriedGirl from "@/assets/imgs/worried-girl.png"
 import Feature1 from "@/assets/imgs/Feature1.png"
 import Feature2 from "@/assets/imgs/Feature2.png"
 import EsimPhone from "@/assets/imgs/esim-phone.png";
+import { TitleDot } from './TitleDot';
 
-const DotLine = ({ count }) => {
-  return (
-    <div className="flex gap-[17px]">
-      {Array.from({ length: count }).map((_, index) => (
-        <div key={index} className="w-[6px] h-[6px] bg-[#C69C6D] rounded-full"></div>
-      ))}
-    </div>
-  );
-};
 
 export const Explain = () => {
   const { t } = useTranslation()
   return (
-    <div className="flex flex-col items-center h-[970px] gap-[40px] px-[150px] mt-28">
+    <div className="flex flex-col items-center h-[970px] gap-[40px] px-[250px] mt-28">
       {/* 标题部分 */}
-      <div className="flex flex-col py-auto gap-[35px]">
-        <h2 className="text-[40px] leading-[40px] font-bold">{t('explain.title')}</h2>
-        <DotLine count={17} />
-      </div>
+      <TitleDot>{t('explain.title')}</TitleDot>
       {/* 问题描述部分 */}
       <div className="flex items-center rounded-[30px] w-full py-[30px] px-[40px] bg-[#F2F2F2] relative">
         <img src={WorriedGirl} alt="worried girl" className="absolute w-[128px] h-[215px] left-[10px] -top-[10px]" />
