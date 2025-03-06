@@ -129,5 +129,48 @@
     "countries": "韓国・台湾・中国本土・香港・マカオ・シンガポール・マレーシア・ベトナム・ヨーロッパ",
     "otherDesc": "世界各国のテストサービス付き商品を提供いたします",
     "button": "公式サイトで購入"
+  },
+  "userVoice": {
+    "title": "利用者の声"
+  },
+  "recommend": {
+    "title": "インフルエンサーからのおすすめ",
+    "button": "さらに"
+  },
+  "process": {
+    "title": "ご利用の流れ",
+    "amazon": {
+      "title": "Amazon",
+      "step1": "Amazonのメッセージに商品のご案内が届きます。",
+      "step2": "ご予約",
+      "step3": "eSIM体験テストのeSIM発行",
+      "step4": [
+        "マンツーマンによる設定のご案内",
+        "（公式LINEアカウントにて実施）"
+      ]
+    },
+    "official": {
+      "title": "公式サイト",
+      "step1": "LINEのチャットに商品のご案内が届きます。",
+      "step2": "ご予約",
+      "step3": "eSIM体験テストのeSIM発行",
+      "step4": [
+        "マンツーマンによる設定のご案内",
+        "（公式LINEアカウントにて実施）"
+      ]
+    }
+  },
+  "destinationPlane": {
+    "title": "渡航先セットプラン"
+  },
+  "footer": {
+    "home": "ホームページ",
+    "productIntroduction": "商品紹介",
+    "achievements": "実績",
+    "news": "NEWS",
+    "contact": "お問い合わせ",
+    "copyright": "©︎ 2024 DeSiM",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約"
   }
 }

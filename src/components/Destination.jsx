@@ -1,67 +1,12 @@
 import { TitleDot } from "./TitleDot";
 import { useTranslation, Trans } from "react-i18next";
 import { Swiper } from "./Swiper";
-import SwiperCover from "../assets/imgs/swiper-cover.png";
 import { Button } from "./Button";
+import { cards } from "../utils";
 
 export const Destination = () => {
   const { t } = useTranslation();
-  const cards = [
-    {
-      id: 1,
-      image: SwiperCover,
-      title: "韓国eSIM / 3日間 / 完全無制限",
-      desc: "テストサービス付き"
-    },
-    {
-      id: 2,
-      image: SwiperCover,
-      title: "韓国eSIM / 3日間 / 完全無制限",
-      desc: "テストサービス付き"
-    },
-    {
-      id: 3,
-      image: SwiperCover,
-      title: "韓国eSIM / 3日間 / 完全無制限",
-      desc: "テストサービス付き"
-    },
-    {
-      id: 4,
-      image: SwiperCover,
-      title: "韓国eSIM / 3日間 / 完全無制限",
-      desc: "テストサービス付き"
-    },
-    {
-      id: 5,
-      image: SwiperCover,
-      title: "韓国eSIM / 3日間 / 完全無制限",
-      desc: "テストサービス付き"
-    },
-    {
-      id: 6,
-      image: SwiperCover,
-      title: "韓国eSIM / 3日間 / 完全無制限",
-      desc: "テストサービス付き"
-    },
-    {
-      id: 7,
-      image: SwiperCover,
-      title: "韓国eSIM / 3日間 / 完全無制限",
-      desc: "テストサービス付き"
-    },
-    {
-      id: 8,
-      image: SwiperCover,
-      title: "韓国eSIM / 3日間 / 完全無制限",
-      desc: "テストサービス付き"
-    },
-    {
-      id: 9,
-      image: SwiperCover,
-      title: "韓国eSIM / 3日間 / 完全無制限",
-      desc: "テストサービス付き"
-    }
-  ]
+ 
   return (
     <div className="bg-[#FFD757] w-full flex flex-col items-center -translate-y-[465px] pt-[115px] px-[250px] pb-[244px] gap-[35px]">
       <TitleDot>

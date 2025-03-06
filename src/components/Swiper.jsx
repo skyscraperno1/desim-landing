@@ -64,7 +64,7 @@ export const Swiper = ({ cards }) => {
         {Array.from({ length: totalPages }).map((_, index) => (
           <div
             key={index}
-            className={`w-[18.66px] h-[18.66px] rounded-full cursor-pointer ${
+            className={`w-[18.66px] h-[18.66px] rounded-full cursor-pointer select-none ${
               current === index 
                 ? 'bg-[#004B83]' 
                 : 'bg-[#004B83] opacity-30'

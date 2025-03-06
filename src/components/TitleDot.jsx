@@ -10,7 +10,7 @@ const DotLine = ({ count }) => {
 
 export const TitleDot = ({ children }) => {
   return (
-      <div className="flex flex-col py-auto gap-[35px]">
+      <div className="flex flex-col py-auto gap-[35px] items-center">
       <h2 className="text-[40px] leading-[40px] font-bold text-center">{children}</h2>
       <DotLine count={17} />
     </div>
