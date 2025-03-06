@@ -1,6 +1,6 @@
 import { TitleDot } from "./TitleDot";
 import { useTranslation } from "react-i18next";
-import Globe from '../assets/imgs/globe.png'
+import Globe from '../assets/imgs/Globe.png'
 import user from '../assets/imgs/user.png'
 import Recommend from '../assets/imgs/recommend.png'
 const articles = [
