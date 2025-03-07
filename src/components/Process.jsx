@@ -1,6 +1,7 @@
 import { TitleDot } from "./TitleDot";
 import { useTranslation } from "react-i18next";
 import ProcessContainer from './ProcessFlow';
+import { MobileProcessContainer } from './ProcessFlow';
 import ServiceImg from '../assets/imgs/service-img.png'
 
 export const Process = () => {
@@ -33,12 +34,17 @@ export const Process = () => {
   };
 
   return (
-    <div className="w-full flex flex-col gap-[35px] items-center -translate-y-[650px] pt-[300px] pb-[100px] bg-[#E6F6FF] px-[250px] relative">
-      <img src={ServiceImg} className="absolute top-[150px] left-[150px] w-[254px] z-20" />
+    <div className="w-full flex flex-col gap-[35px] items-center lg:-translate-y-[500px] -translate-y-[450px] pt-[300px] pb-[100px] bg-[#E6F6FF] lg:px-[250px] px-[10px] relative">
+      <img src={ServiceImg} className="lg:block hidden absolute top-[150px] left-[150px] w-[254px] z-20" />
       <TitleDot>
         {t('process.title')}
       </TitleDot>
-      <ProcessContainer leftSteps={amazonSteps} rightSteps={officialSteps} />
+      <div className="hidden lg:block">
+        <ProcessContainer leftSteps={amazonSteps} rightSteps={officialSteps} />
+      </div>
+      <div className="block lg:hidden">
+        <MobileProcessContainer leftSteps={amazonSteps} rightSteps={officialSteps} />
+      </div>
     </div>
   )
 }

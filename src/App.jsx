@@ -24,7 +24,7 @@ function App() {
         <Service></Service>
         <Purchase></Purchase>
         <Destination></Destination>
-        <UserVoice></UserVoice>
+          <UserVoice></UserVoice>
         <Recommend></Recommend>
         <Process></Process>
         <DestinationPlane></DestinationPlane>

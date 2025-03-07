@@ -16,6 +16,9 @@ export default {
         yellowOne: '#FFD757',
         yellowTwo: '#FFCA57'
       },
+      width: {
+        plus10: 'calc(100% + 10px)'
+      },
       backgroundImage: {
         'gradient-button': 'linear-gradient(62.38deg, #E33237 5.62%, #FF6145 94.38%)',
         'gradient-hero': 'linear-gradient(180deg, #FFD757 50%, #FFCA57 100%)'
