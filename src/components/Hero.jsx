@@ -93,7 +93,12 @@ export const Hero = () => {
             </div>
           </HeroBox>
         </div>
-        <Button className="font-bold w-[320px] lg:w-[420px]">{t('hero.apply')}</Button>
+        <Button 
+          className="font-bold w-[320px] lg:w-[420px]"
+          onClick={() => window.open(t('hero.applyUrl'), '_blank')}
+        >
+          {t('hero.apply')}
+        </Button>
         <div className="w-full lg:h-[100px] h-[60px] relative"></div>
       </div>
     </div>

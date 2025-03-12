@@ -13,7 +13,8 @@
     "timeDecline": "設定時間を削減",
     "apply": "お申し込み",
     "aboutMinutes": "約<0>{{minutes}}</0>分",
-    "amazonPurchase": "Amazonで購入" 
+    "amazonPurchase": "Amazonで購入",
+    "applyUrl": "https://jp.shop.desim.tech/products/esim-test-service-line"
   },
   "explain": {
     "title": "テストサービスとは？",
@@ -112,13 +113,15 @@
       "step3": "ご登録いただいたメール宛にQRコードを送付"
     },
     "product": {
-      "title": "韓国eSIM / 3日間 / 完全無制限",
-      "desc": "テストサービス付き"
+      "title": "事前出国テストサービスeSIM",
+      "desc": "日本eSIM 1日450MB"
     },
     "bottom": {
       "title": "Amazonまたは公式サイトから購入可能",
       "button1": "Amazonで購入",
-      "button2": "公式サイトで購入"
+      "button1Url": "https://www.amazon.co.jp/dp/B0DQHB41LG",
+      "button2": "公式サイトで購入",
+      "button2Url": "https://jp.shop.desim.tech/products/esim-test-service-line"
     }
   },
   "destination": {
@@ -128,7 +131,8 @@
     "other": "ー　その他 対象国　ー",
     "countries": "韓国・台湾・中国本土・香港・マカオ・シンガポール・マレーシア・ベトナム・ヨーロッパ",
     "otherDesc": "世界各国のテストサービス付き商品を提供いたします",
-    "button": "公式サイトで購入"
+    "button": "公式サイトで購入",
+    "buttonUrl": "https://jp.shop.desim.tech/products/esim-test-service-line"
   },
   "userVoice": {
     "title": "利用者の声"
@@ -165,12 +169,24 @@
   },
   "footer": {
     "home": "ホームページ",
+    "homeUrl": "https://jp.shop.desim.tech/",
     "productIntroduction": "商品紹介",
+    "productIntroductionUrl": "https://jp.shop.desim.tech/",
     "achievements": "実績",
+    "achievementsUrl": "https://jp.shop.desim.tech/blogs/1-desim-great-voices/for-travel-in-japan-choose-desim-esim",
     "news": "NEWS",
+    "newsUrl": "https://jp.shop.desim.tech/",
     "contact": "お問い合わせ",
+    "contactUrl": "https://jp.shop.desim.tech/pages/contact",
     "copyright": "©︎ 2024 DeSiM",
     "privacyPolicy": "プライバシーポリシー",
-    "termsOfService": "利用規約"
+    "privacyPolicyUrl": "https://jp.shop.desim.tech/policies/privacy-policy",
+    "termsOfService": "利用規約",
+    "termsOfServiceUrl": "https://jp.shop.desim.tech/policies/terms-of-service",
+    "xUrl": "https://twitter.com/desimtech",
+    "facebookUrl": "https://www.facebook.com/desim.tech",
+    "instagramUrl": "http://instagram.com/desimtech",
+    "youtubeUrl": "https://www.youtube.com/desimtech",
+    "lineUrl": "https://page.line.me/457gdenl?openQrModal=true"
   }
 }

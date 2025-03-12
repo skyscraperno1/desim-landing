@@ -58,8 +58,12 @@ export const Purchase = () => {
           {t('purchase.bottom.title')}
         </h3>
         <div className="flex lg:flex-row flex-col gap-[30px] max-h-[80px] mb-[125px] relative lg:w-auto w-full">
-          <Button className="lg:!text-[40px] !text-[32px] lg:w-[420px] !px-0 w-full">{t('purchase.bottom.button1')}</Button>
-          <Button className="lg:!text-[40px] !text-[32px] lg:w-[420px] !px-0 w-full">{t('purchase.bottom.button2')}</Button>
+          <Button className="lg:!text-[40px] !text-[32px] lg:w-[420px] !px-0 w-full"  
+            onClick={() => window.open(t('purchase.bottom.button1Url'), '_blank')}
+          >{t('purchase.bottom.button1')}</Button>
+          <Button className="lg:!text-[40px] !text-[32px] lg:w-[420px] !px-0 w-full"
+            onClick={() => window.open(t('purchase.bottom.button2Url'), '_blank')}
+          >{t('purchase.bottom.button2')}</Button>
           <img src={PurchaseGirl} alt="purchase-girl" className="lg:block hidden absolute w-[194px] h-[232px] -bottom-[30px] -left-[150px] -z-10" />
         </div>
       </div>

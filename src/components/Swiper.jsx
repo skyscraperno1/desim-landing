@@ -129,7 +129,8 @@ export const Swiper = ({ cards }) => {
             {cards.map((card) => (
               <div 
                 key={card.id}
-                className="select-none flex-shrink-0 w-full lg:w-[300px] lg:h-[375px] h-[300px] bg-white rounded-[20px] shadow-[10px_10px_3px_0px_#0000001A] p-6"
+                className="select-none flex-shrink-0 w-full lg:w-[300px] lg:h-[375px] h-[300px] bg-white rounded-[20px] shadow-[10px_10px_3px_0px_#0000001A] p-6 cursor-pointer"
+                onClick={() => window.open(card.url, '_blank')}
               >
                 <img 
                   src={card.image} 

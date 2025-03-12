@@ -20,7 +20,7 @@ export const DestinationPlane = () => {
         <p className="lg:text-[24px] text-[19.2px] lg:leading-[42px] leading-[33px] font-normal text-center">{t('destination.countries')}</p>
       </div>
       <p className="text-[24px] leading-[42px] font-normal text-center">{t('destination.otherDesc')}</p>
-      <Button>
+      <Button onClick={() => window.open(t('destination.buttonUrl'), '_blank')}>
         {t('destination.button')}
       </Button>
     </div>
