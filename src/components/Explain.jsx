@@ -15,7 +15,7 @@ export const Explain = () => {
       {/* 问题描述部分 */}
       <div className="flex items-center rounded-[30px] w-full py-[30px] px-[40px] bg-[#F2F2F2] relative lg:mb-0 mb-[25px]">
         <img src={WorriedGirl} alt="worried girl" className="absolute lg:w-[128px] w-[100px] lg:left-[100px] lg:-top-[10px] -bottom-[45px] left-[50%] -translate-x-[50%]" />
-        <div className="w-full flex flex-col gap-2 lg:ml-6 lg:text-[28px] text-[22px] lg:leading-[50px] leading-[40px] text-[#293761] items-center text-center lg:pb-0 pb-[100px]">
+        <div className="w-full flex flex-col gap-2 lg:ml-6 lg:text-[28px] text-[20px] lg:leading-[50px] leading-[40px] text-[#293761] items-center text-center lg:pb-0 pb-[100px]">
           <p>
             {t('explain.worries.line1')}
           </p>
@@ -30,13 +30,13 @@ export const Explain = () => {
       {/* 文中内容 */}
       <div className="w-full text-center">
         <div className="inline-flex flex-col items-center mb-[25px]">
-          <h3 className="lg:text-[28px] text-[22px] leading-[30px] pb-[25px] underline decoration-8 decoration-[#FFD757]">
+          <h3 className="lg:text-[28px] text-[22px] lg:leading-[30px] leading-[45px] pb-[25px] underline decoration-8 decoration-[#FFD757]">
             {t('explain.content.title')}
           </h3>
-          <p className="lg:text-[24px] text-[20px] leading-[42px] font-normal">
+          <p className="lg:text-[24px] text-[20px] lg:leading-[42px] leading-[33px] font-normal">
             {t('explain.content.line1')}
           </p>
-          <p className="text-[24px] leading-[42px] font-normal">
+          <p className="lg:text-[24px] text-[20px] lg:leading-[42px] leading-[33px] font-normal">
             {t('explain.content.line2')}
           </p>
         </div>

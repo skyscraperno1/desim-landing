@@ -137,7 +137,7 @@ export const Swiper = ({ cards }) => {
                   alt={card.title}
                   className="lg:w-[200px] lg:h-[200px] w-[160px] h-[160px] object-cover mx-auto"
                 />
-                <h3 className="lg:text-[24px] text-[19.2px] leading-[32px] mt-[7px]">{card.title}</h3>
+                <h3 className="lg:text-[24px] text-[18px] leading-[32px] mt-[7px]">{card.title}</h3>
                 <p className="lg:text-[15px] lg:leading-[32px] leading-[21px] text-[12px] lg:text-medium text-normal">{card.desc}</p>
               </div>
             ))}

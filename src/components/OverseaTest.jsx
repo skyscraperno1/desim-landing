@@ -70,7 +70,7 @@ export const OverseaTest = () => {
       <div className="w-full bg-[#E6F6FF] relative z-10 py-[100px] lg:pb-[100px] pb-[50px] -translate-y-[180px] clip-path-ellipse-top">
         <div className="lg:mx-[250px] mx-[10px] flex flex-col items-center px-[10px]">
           <TitleDot>{t("oversea.features.title")}</TitleDot>
-          <h2 className="lg:text-[24px] text-[19px] lg:leading-[42px] leading-[33px] text-center lg:my-[80px] my-[40px]">
+          <h2 className="lg:text-[24px] text-[18px] lg:leading-[42px] leading-[33px] text-center lg:my-[80px] my-[40px]">
             {t("oversea.features.desc")}
           </h2>
           {/* 特征卡片 */}
@@ -78,12 +78,12 @@ export const OverseaTest = () => {
             <FeatureCard
               title={t("oversea.features.card1.title")}
               content={t("oversea.features.card1.desc")}
-              Component={IconFeature2}
+              Component={IconFeature1}
             />
             <FeatureCard
               title={t("oversea.features.card2.title")}
               content={t("oversea.features.card2.desc")}
-              Component={IconFeature1}
+              Component={IconFeature2}
             />
             <FeatureCard
               title={t("oversea.features.card3.title")}

@@ -42,7 +42,7 @@ export const Process = () => {
       <div className="hidden lg:block">
         <ProcessContainer leftSteps={amazonSteps} rightSteps={officialSteps} />
       </div>
-      <div className="block lg:hidden">
+      <div className="block lg:hidden w-full">
         <MobileProcessContainer leftSteps={amazonSteps} rightSteps={officialSteps} />
       </div>
     </div>

@@ -6,7 +6,7 @@ import { cards } from "../utils";
 
 export const Destination = () => {
   const { t } = useTranslation();
- 
+
   return (
     <div className="bg-[#FFD757] w-full flex flex-col items-center lg:-translate-y-[402px] -translate-y-[290px] pt-[115px] lg:px-[250px] px-[10px] lg:pb-[244px] pb-[158px] gap-[35px]">
       <TitleDot>
@@ -31,9 +31,10 @@ export const Destination = () => {
         <p className="lg:text-[24px] text-[19.2px] lg:leading-[42px] leading-[33px] font-normal text-center">{t('destination.countries')}</p>
       </div>
       <p className="text-[24px] leading-[42px] font-normal text-center">{t('destination.otherDesc')}</p>
-      <Button 
-       onClick={() => window.open(t('destination.buttonUrl'), '_blank')}
-       >
+      <Button
+        className='lg:!text-[40px] !text-[32px]'
+        onClick={() => window.open(t('destination.buttonUrl'), '_blank')}
+      >
         {t('destination.button')}
       </Button>
     </div>

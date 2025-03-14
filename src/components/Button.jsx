@@ -20,7 +20,8 @@ export const Button = ({ children, width, className, href, onClick, variant = 'r
         variant === 'blue' 
           ? 'bg-[#0DB3DB] shadow-[0_10px_0_#0D6E99]'
           : 'bg-gradient-button shadow-[0_10px_0_#931827]',
-        'text-[32px] lg:text-[40px]',
+        'text-[40px]',
+        'font-bold lg:font-medium',
         variant === 'blue'
           ? '[&:active]:translate-y-[5px] [&:active]:shadow-[0_5px_0_#0D6E99]'
           : '[&:active]:translate-y-[5px] [&:active]:shadow-[0_5px_0_#910314]',

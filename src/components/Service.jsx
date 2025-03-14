@@ -14,9 +14,13 @@ export const Service = () => {
       </TitleDot>
       <div className="relative flex lg:flex-row flex-col items-end lg:gap-[82px] gap-[25px] mt-[32px]">
         <div className="relative lg:w-[600px] w-full bg-white rounded-[20px] flex flex-col items-center gap-[32px] lg:py-[40px] lg:px-[50px] p-[20px_10px_50px_10px]">
-          <img src={HeroLeave} alt="hero-leave" className="lg:w-[70px] w-[40px] absolute lg:top-[6px] top-[125px] right-[18px] lg:-right-[20px] rotate-[15deg]" />
+          <img src={HeroLeave} alt="hero-leave" className="lg:w-[70px] w-[40px] absolute lg:top-[6px] top-[62px] right-[18px] lg:-right-[20px] rotate-[15deg]" />
           <h2 className="lg:text-[24px] lg:leading-[32px] text-[19.2px] leading-[33px]">{t('service.content.title')}</h2>
-          <h1 className="lg:text-[45px] text-[36px] lg:leading-[65px] leading-[100%] font-bold text-center">{t('service.content.subtitle')}</h1>
+          <h1 className="text-[45px] leading-[65px] font-black text-center lg:block hidden">{t('service.content.subtitle')}</h1>
+          <h1 className="text-[36px] leading-[46px] font-black text-center lg:hidden block">
+            出国前
+            <div>テストサービス</div>
+          </h1>
           <p className="text-[15px] leading-[26px] font-normal lg:mr-0 mr-[110px]">{t('service.content.desc')}</p>
         </div>
         <img src={HeroImg} alt="hero" className="lg:w-[309px] w-[153px] lg:static absolute -bottom-[26px] -right-[2px]" />

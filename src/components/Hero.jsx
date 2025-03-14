@@ -18,7 +18,7 @@ export const HeroBox = ({ children, Component }) => {
 
 export const HeroBlueBox = ({ children }) => {
   return (
-    <div className="flex items-center justify-center rounded-[15px] lg:w-[188px] w-[100px] lg:h-[64px] h-[45px] border-black border-2 bg-[#004B83] lg:text-[28px] text-[15px] text-white">{children}</div>
+    <div className="flex items-center justify-center rounded-[15px] lg:w-[188px] w-full lg:h-[64px] h-[45px] border-black border-2 bg-[#004B83] lg:text-[28px] text-[15px] text-white">{children}</div>
   )
 }
 
@@ -30,12 +30,12 @@ export const Hero = () => {
       <div className="w-full h-full flex justify-center items-center flex-col gap-[30px]">
         <div className="flex lg:flex-row flex-col items-center">
           <div className="flex flex-col text-[#232323]">
-            <p className="flex lg:text-[65px] text-[34px] lg:leading-[94px] leading-[100%] font-extrabold items-end">海外で初
-              <span className="lg:text-[45px] lg:leading-[74px] text-[24px] leading-[100%]">めて</span>
-              <img src={HeroLeave} className="px-2 lg:-translate-y-4 -translate-y-2px lg:w-[58px]  w-[40px]"/>
-              <span className="lg:text-[45px] lg:leading-[74px] text-[24px] leading-[100%]">の<span className="text-[#DE0071]">eSIM</span></span>
+            <p className="flex lg:text-[65px] text-[34px] leading-[100%] font-extrabold items-end">海外で初
+              <span className="lg:text-[45px] text-[24px] leading-[100%]">めて</span>
+              <img src={HeroLeave} className="px-2  lg:w-[58px]  w-[40px]"/>
+              <span className="lg:text-[45px] text-[24px] leading-[100%]">の<span className="text-[#DE0071] lg:text-[70px]  text-[36px]">eSIM</span></span>
             </p>
-            <p className="lg:text-[65px] text-[34px] lg:leading-[94px] leading-[100%] font-extrabold">
+            <p className="lg:text-[65px] text-[34px] lg:leading-[94px] leading-[100%] font-extrabold lg:mt-0 mt-2">
               { t('hero.peace') }
             </p>
             <div className="flex gap-[14px] lg:mt-0 mt-[18px]">
@@ -43,7 +43,7 @@ export const Hero = () => {
               <HeroBlueBox>{ t('hero.verifyTerminal') }</HeroBlueBox>
               <HeroBlueBox>{ t('hero.guideConfiguration') }</HeroBlueBox>
             </div>
-            <p className="lg:text-[28px] text-[19px] lg:leading-[40px] leading-[33px] mt-[18px]">現地での接続まで、海外渡航の全てをサポート</p>
+            <p className="lg:text-[28px] text-[19px] lg:leading-[40px] leading-[33px] mt-[18px] lg:w-fit w-[70%] text-center lg:mx-0 mx-auto">現地での接続まで、海外渡航の全てをサポート</p>
             <p className="text-[28px] leading-[40px] mt-[18px]">{ t('')}</p>
           </div>
           <img src={HeroImg} className="lg:w-[308px] lg:h-[299px] w-[208px] h-[201px]" />
@@ -99,7 +99,7 @@ export const Hero = () => {
         >
           {t('hero.apply')}
         </Button>
-        <div className="w-full lg:h-[100px] h-[60px] relative"></div>
+        <div className="w-full lg:h-[100px] h-[80px] relative"></div>
       </div>
     </div>
   )

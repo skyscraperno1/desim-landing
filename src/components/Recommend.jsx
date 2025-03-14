@@ -28,7 +28,7 @@ const RecommendItem = () => {
 export const Recommend = () => {
   const { t } = useTranslation();
   return (
-    <div className="w-full relative flex flex-col gap-[35px] items-center lg:-translate-y-[332px] -translate-y-[208px] bg-no-repeat lg:bg-[url('/src/assets/imgs/bg_influencer.png')] bg-[url('/src/assets/imgs/bg_influencer-mobile.png')] bg-contain bg-bottom z-10 lg:px-0 px-[25px] clip-path-ellipse-long" >
+    <div className="w-full relative flex flex-col gap-[35px] items-center lg:-translate-y-[332px] -translate-y-[208px] bg-no-repeat lg:bg-[url('/src/assets/imgs/bg_influencer.png')] bg-[url('/src/assets/imgs/bg_influencer-mobile.png')] lg:bg-cover bg-contain bg-bottom z-10 lg:px-0 px-[25px] clip-path-ellipse-long" >
       <img src={LuggageGirl} className="lg:block hidden absolute -top-[150px] right-[240px] w-[225px] -z-20" />
       <TitleDot>
         {t('recommend.title')}
