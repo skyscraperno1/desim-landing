@@ -99,7 +99,7 @@ export const Hero = () => {
         >
           {t('hero.apply')}
         </Button>
-        <div className="w-full lg:h-[100px] h-[80px] relative"></div>
+        <div className="w-full lg:h-[90px] h-[70px] lg:mt-[60px] mt-[10px] relative"></div>
       </div>
     </div>
   )
