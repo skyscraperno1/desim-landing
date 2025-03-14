@@ -10,7 +10,7 @@ import LuggageGirl from '../assets/imgs/luggage-girl.png'
 
 const RecommendItem = () => {
   return (
-    <div className="lg:w-[333px] w-full rounded-[20px] flex flex-col gap-[15px] p-[30px_20px_40px_20px] bg-white shadow-[10px_10px_6px_0px_#0000001A]">
+    <div className="lg:w-[333px] min-w-[90%] snap-center rounded-[20px] flex flex-col gap-[15px] p-[30px_20px_40px_20px] bg-white shadow-[10px_10px_6px_0px_#0000001A]">
       <div>
         <img src={RecommendUser} alt="recommend" className="w-[50px] h-[50px]" />
         <h2 className="text-[24px] leading-[42px] font-normal">account_sample</h2>
@@ -28,12 +28,12 @@ const RecommendItem = () => {
 export const Recommend = () => {
   const { t } = useTranslation();
   return (
-    <div className="w-full relative flex flex-col gap-[35px] items-center lg:-translate-y-[332px] -translate-y-[208px] bg-no-repeat lg:bg-[url('/src/assets/imgs/bg_influencer.png')] bg-[url('/src/assets/imgs/bg_influencer-mobile.png')] lg:bg-cover bg-contain bg-bottom z-10 lg:px-0 px-[25px] clip-path-ellipse-long" >
+    <div className="w-full relative flex flex-col gap-[35px] items-center lg:-translate-y-[332px] -translate-y-[208px] bg-no-repeat lg:bg-[url('/src/assets/imgs/bg_influencer.png')] bg-[url('/src/assets/imgs/bg_influencer-mobile.png')] bg-cover bg-bottom z-10 lg:px-0 px-[25px] clip-path-ellipse" >
       <img src={LuggageGirl} className="lg:block hidden absolute -top-[150px] right-[240px] w-[225px] -z-20" />
       <TitleDot>
         {t('recommend.title')}
       </TitleDot>
-      <div className="grid lg:grid-cols-3 grid-cols-1 gap-[20px] "
+      <div className="lg:grid hidden grid-cols-3 gap-[20px] "
       >
         <RecommendItem />
         <RecommendItem />
@@ -42,8 +42,15 @@ export const Recommend = () => {
         <RecommendItem />
         <RecommendItem />
       </div>
-      <Button variant="blue" className="mt-[35px] lg:w-[420px] w-full">{t('recommend.button')}</Button>
-      <div className="w-full lg:h-[200px] h-[100px] relative">
+      <div className="mt-[20px] lg:hidden w-full flex overflow-x-auto snap-x snap-mandatory scroll-smooth gap-[18px] hide-scrollbar pb-[10px] pr-[10px]">
+        <RecommendItem />
+        <RecommendItem />
+        <RecommendItem />
+        <RecommendItem />
+        <RecommendItem />
+        <RecommendItem />
+      </div>
+      <div className="w-full lg:h-[200px] h-[60px] relative">
       </div>
     </div>
   )

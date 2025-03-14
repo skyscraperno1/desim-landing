@@ -39,7 +39,7 @@ export const Purchase = () => {
         <div className="hidden lg:block">
           <ProcessContainer leftSteps={amazonSteps} rightSteps={officialSteps} />
         </div>
-        <div className="block lg:hidden w-full">
+        <div className="block lg:hidden">
           <MobileProcessContainer leftSteps={amazonSteps} rightSteps={officialSteps} />
         </div>
         <div className="border-[5px] border-[#0DB3DB] rounded-[30px] w-full bg-white mt-[20px] lg:px-[30px] lg:py-[30px] px-[15px] py-[35px] flex lg:flex-row flex-col gap-[30px] items-center justify-center max-w-[870px]">
